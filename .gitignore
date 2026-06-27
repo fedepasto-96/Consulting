@@ -45,3 +45,10 @@ credentials.json
 *.pdf.tmp
 /tmp/
 *.log
+
+# ─── OpenClaw / agent workspace ───────────────────────
+# Workspace files (AGENTS.md, SOUL.md, IDENTITY.md, USER.md, etc.) ARE tracked.
+# The agent's private memory and local settings stay local only.
+memory/
+.claude/settings.local.json
+.aider*
