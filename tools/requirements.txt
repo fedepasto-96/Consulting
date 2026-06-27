@@ -1,0 +1,6 @@
+# Core tooling dependencies. Pin as the toolset grows.
+# Stdlib-only for now; uncomment as needed.
+# pandas>=2.0        # tabular risk registers / FMEA
+# openpyxl>=3.1      # Excel I/O
+# python-docx>=1.1   # DOCX report generation
+# jinja2>=3.1        # report templating
