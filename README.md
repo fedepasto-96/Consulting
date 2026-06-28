@@ -1,15 +1,17 @@
-# [Company Name] — Engineering Risk & Safety Consulting
+# Aerisk — Engineering Risk & Safety Consulting
 
-> Independent engineering consultancy specializing in **risk assessments** and
-> **safety assessments**, with a focus on **drones / Unmanned Aircraft Systems (UAS)**.
+> **Aerisk** · aerisk.aero — Independent engineering consultancy specializing in
+> **risk assessments** and **safety assessments**, with a focus on
+> **drones / Unmanned Aircraft Systems (UAS)**.
 
 This repository is the company's working framework: methodologies, reusable
 templates, per-client engagement folders, supporting tooling, and reference
 material. It is intended to standardize how we scope, perform, and deliver
 assessments so that every engagement is consistent, traceable, and auditable.
 
-> ⚠️ **Rename me.** Replace `[Company Name]` throughout once the legal/brand name
-> is set.
+> **Brand:** Aerisk (text wordmark for now — a visual logo is deferred).
+> Primary domain: `aerisk.aero`. Before any trademark filing, run an EUIPO /
+> Swiss IPI search to confirm clearance.
 
 ---
 

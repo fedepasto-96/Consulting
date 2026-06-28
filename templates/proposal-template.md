@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Prepared for** | [Client] |
-| **Prepared by** | [Company Name] |
+| **Prepared by** | Aerisk |
 | **Date** | |
 | **Valid until** | |
 | **Ref** | |
