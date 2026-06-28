@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+/* ─── Design tokens (technical & credible) ──────────────────────────────
+   Dark-first deep-navy palette + one restrained cool accent (azure). */
+@theme {
+  --color-ink-950: #070b14;
+  --color-ink-900: #0b1220;
+  --color-ink-850: #0e1626;
+  --color-ink-800: #111a2e;
+  --color-ink-700: #18233c;
+  --color-line: #1d2942;
+  --color-line-bright: #2a3a5c;
+
+  --color-fog-50: #f3f7fc;
+  --color-fog-100: #e6edf7;
+  --color-fog-300: #aebbd0;
+  --color-fog-400: #8a9ab8;
+  --color-fog-500: #6c7e9e;
+
+  --color-azure-300: #7dd3fc;
+  --color-azure-400: #38bdf8;
+  --color-azure-500: #0ea5e9;
+  --color-azure-600: #0284c7;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* offset anchored sections so the sticky header doesn't cover headings */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background-color: var(--color-ink-900);
+  color: var(--color-fog-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Faint engineering grid used behind hero / section backgrounds. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(42, 58, 92, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(42, 58, 92, 0.35) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Radial fade mask for decorative backgrounds. */
+.mask-fade {
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 35%, transparent 75%);
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 35%, transparent 75%);
+}
+
+::selection {
+  background-color: var(--color-azure-500);
+  color: var(--color-ink-950);
+}
